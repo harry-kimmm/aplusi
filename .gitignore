@@ -2,3 +2,4 @@
 .vscode
 backend/__pycache__
 venv_aplusi/
+.DS_Store
