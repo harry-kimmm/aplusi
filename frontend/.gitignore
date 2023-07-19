@@ -1,4 +1,5 @@
-.secrets
+.secrets/
 .vscode
 backend/__pycache__
-venv_aplusi
+venv_aplusi/
+.gitignore
