@@ -1,5 +1,5 @@
-backend/.secrets/
+.secrets/
 .vscode
-backend/__pycache__
-venv_aplusi/
-.DS_Store
+backend/__pycache__/
+backend/venv_aplusi/
+frontend/node_modules/
