@@ -26,11 +26,11 @@ def read_root():
 
 @app.get("/chat/{topic}")
 def get_question(topic: str):
-    # questions = []
+    # questions  = []
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "user", "content": f"Give me a list 10 multiple choice problems for {topic} formatted nicely in html component without saying anything else"}
+            {"role": "user", "content": f"Give me a list 10 multiple choice problems for {topic}. Make it with html elements and for each problem give the choices A, B, C, and D. Do not implement any form of submission. Do not say anything else and only write out the componenets in html as asked. Do not include any headers."}
         ]
     )
     print(completion)

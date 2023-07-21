@@ -1,9 +1,18 @@
+img {
+  position: fixed;
+  max-width: 130vh;
+  top: -25%;
+  padding-top: 0%;
+  left: 20%
+}
+
 .nav {
   border-width: 1px 0;
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .nav li {
@@ -25,44 +34,34 @@
   font-size: 3.4vh;
   border-radius: 20px;
   line-height: 40px;
+  font-family: 'Didact Gothic', sans-serif;
 
 }
 
-span::before {
-  content: "Subject0";
-  animation: animate infinite 12s;
-  padding-left: 10px;
+h1 {
+  font-size: 80px;
 }
 
-@keyframes animate {
 
-  0% {
-    content: "Subject1";
-  }
-
-  50% {
-    content: "Subject2";
-  }
-
-  75% {
-    content: "Subject3";
-  }
-}
 
 h3 {
-  color: red;
+  color: red
 }
 
 .black-text {
   color: black;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 45px;
 }
 
 .small-text {
   font-size: 2.3vh;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 
 
 .paragraph {
   line-height: 10px;
+  font-family: 'Didact Gothic', sans-serif;
 }

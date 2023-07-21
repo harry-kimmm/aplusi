@@ -14,8 +14,8 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(root, 'index.html'),
-        generate: resolve(root, 'generate', 'index.html'),
+        index: resolve(root, 'index.html'),
+        main: resolve(root, 'main.jsx'),
       }
     }
   }
