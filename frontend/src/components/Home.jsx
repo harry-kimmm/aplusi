@@ -6,7 +6,7 @@ import backgroundBlur from "./red-blur.png";
 
 
 
-const TEXTS = ['AP Computer Science', 'APUSH'];
+const TEXTS = ['AP Computer Science', 'APUSH', 'AP Biology', 'AP Calculus', 'AP Lang'];
 
 function Home(props) {
   const setPage = props.setPage;
